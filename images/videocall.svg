@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_12689" data-name="Group 12689" transform="translate(-860 -174)">
+    <g id="Rectangle_2086" data-name="Rectangle 2086" transform="translate(860 174)" fill="#309f7d" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <g id="tiny-video-symbol" transform="translate(861.744 109.935)">
+      <g id="Group_12688" data-name="Group 12688" transform="translate(0 70.229)">
+        <g id="Group_12686" data-name="Group 12686" transform="translate(13.265 1.096)">
+          <path id="Path_139" data-name="Path 139" d="M238.528,100.131h0a1.884,1.884,0,0,1-1.233-.472l-3.567-3.1a2.4,2.4,0,0,1,0-3.518l3.567-3.1a1.883,1.883,0,0,1,2.2-.2A2.278,2.278,0,0,1,240.53,91.7v6.2a2.276,2.276,0,0,1-1.04,1.957A1.851,1.851,0,0,1,238.528,100.131Z" transform="translate(-232.961 -89.477)" fill="#309f7d"/>
+        </g>
+        <g id="Group_12687" data-name="Group 12687" transform="translate(0 0)">
+          <path id="Path_140" data-name="Path 140" d="M11.241,83.065H1.6A1.6,1.6,0,0,1,0,81.47V71.824a1.6,1.6,0,0,1,1.6-1.6h9.646a1.6,1.6,0,0,1,1.6,1.6V81.47A1.6,1.6,0,0,1,11.241,83.065Z" transform="translate(0 -70.229)" fill="#309f7d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

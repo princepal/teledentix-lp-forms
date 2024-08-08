@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.684" height="41.684" viewBox="0 0 41.684 41.684">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="36.907" height="36.907" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.482" x2="1" y2="0.482" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#738186"/>
+      <stop offset="0.992" stop-color="#7c898f"/>
+      <stop offset="0.996" stop-color="#c0c6c9"/>
+      <stop offset="1" stop-color="#7d8a90"/>
+    </linearGradient>
+    <filter id="Base" x="5.289" y="6.208" width="27.415" height="27.225" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#312f2d"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.558" y1="0.87" x2="0.567" y2="0.934" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbfbfb"/>
+      <stop offset="1" stop-color="#6e6d64"/>
+    </linearGradient>
+    <filter id="Shadow" x="0.555" y="0.946" width="37.008" height="37.16" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2" x="5.269" y="3.188" width="27.007" height="10.672" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Calendar" transform="translate(5.136 0) rotate(8)" clip-path="url(#clip-path)">
+    <g transform="matrix(0.99, -0.14, 0.14, 0.99, -5.09, 0.71)" filter="url(#Base)">
+      <rect id="Base-2" data-name="Base" width="26.969" height="25.758" rx="0.483" transform="translate(5.29 6.68) rotate(-1)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(0.99, -0.14, 0.14, 0.99, -5.09, 0.71)" filter="url(#Shadow)">
+      <path id="Shadow-2" data-name="Shadow" d="M23.344,0,0,3.682,3.662,27.611s4.352-.48,11.093-1.582,12.678-2.049,12.678-2.049Z" transform="translate(7.4 2.95) rotate(8)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <path id="Sheet" d="M23.466,0,0,3.712,3.718,27.849s4.337-.495,11.114-1.606L27.475,24.17Z" transform="translate(2.4 1.214)" fill="#fbfbfb"/>
+    <g id="Month" transform="translate(2.327 1.091)">
+      <g transform="matrix(0.99, -0.14, 0.14, 0.99, -7.41, -0.38)" filter="url(#Rectangle_2)">
+        <path id="Rectangle_2-2" data-name="Rectangle 2" d="M.062,0H23.847l.037,7.233L0,7.256Z" transform="translate(6.77 5.1) rotate(-1)" fill="#e95850"/>
+      </g>
+      <text id="JUL" transform="translate(12.389 7.245) rotate(-9)" fill="#fff" font-size="5" font-family="SegoeUI, Segoe UI" letter-spacing="0.028em"><tspan x="-3.926" y="0">JUL</tspan></text>
+    </g>
+    <g id="Date" transform="translate(7.408 10.673)">
+      <text id="_7" data-name="7" transform="translate(12.455 12.612) rotate(-9)" font-size="16" font-family="SegoeUI, Segoe UI" letter-spacing="0.015em"><tspan x="-4.313" y="0">7</tspan></text>
+      <text id="_1" data-name="1" transform="translate(5.828 13.517) rotate(-9)" font-size="16" font-family="SegoeUI, Segoe UI" letter-spacing="0.015em"><tspan x="-4.313" y="0">1</tspan></text>
+    </g>
+  </g>
+</svg>

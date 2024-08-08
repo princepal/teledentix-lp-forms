@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.244" height="22.244" viewBox="0 0 22.244 22.244">
+  <g id="Group_12817" data-name="Group 12817" transform="translate(0 0)">
+    <path id="Path_106" data-name="Path 106" d="M19.637,1.738H18.595V0H16.857V1.738H5.387V0H3.649V1.738H2.607A2.61,2.61,0,0,0,0,4.345V19.637a2.61,2.61,0,0,0,2.607,2.607h17.03a2.61,2.61,0,0,0,2.607-2.607V4.345A2.61,2.61,0,0,0,19.637,1.738Zm.869,17.9a.87.87,0,0,1-.869.869H2.607a.87.87,0,0,1-.869-.869V8.168H20.506Zm0-13.207H1.738V4.345a.87.87,0,0,1,.869-.869h17.03a.87.87,0,0,1,.869.869Z" transform="translate(0)" fill="#fff"/>
+    <g id="tiny-video-symbol" transform="translate(5.024 10.512)">
+      <g id="Group_12688" data-name="Group 12688" transform="translate(0)">
+        <g id="Group_12686" data-name="Group 12686" transform="translate(7.706 0.637)">
+          <path id="Path_139" data-name="Path 139" d="M236.2,95.666h0a1.094,1.094,0,0,1-.716-.274l-2.072-1.8a1.394,1.394,0,0,1,0-2.044l2.072-1.8a1.094,1.094,0,0,1,1.276-.115,1.323,1.323,0,0,1,.6,1.137v3.6a1.322,1.322,0,0,1-.6,1.137A1.075,1.075,0,0,1,236.2,95.666Z" transform="translate(-232.961 -89.477)" fill="#fff"/>
+        </g>
+        <g id="Group_12687" data-name="Group 12687" transform="translate(0 0)">
+          <path id="Path_140" data-name="Path 140" d="M6.53,77.686H.927A.928.928,0,0,1,0,76.759v-5.6a.928.928,0,0,1,.927-.927h5.6a.928.928,0,0,1,.927.927v5.6A.928.928,0,0,1,6.53,77.686Z" transform="translate(0 -70.229)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

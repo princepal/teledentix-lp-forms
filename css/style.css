@@ -1,0 +1,763 @@
+@font-face {
+  font-family: 'AvenirNext-Regular';
+  src: url('../fonts/AvenirNext-Regular.eot');
+  src: url('../fonts/AvenirNext-Regular.svg');
+  src: url('../fonts/AvenirNext-Regular.ttf');
+  src: url('../fonts/AvenirNext-Regular.woff');
+  src: url('../fonts/AvenirNext-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Medium';
+  src: url('../fonts/AvenirNext-Medium.eot');
+  src: url('../fonts/AvenirNext-Medium.svg');
+  src: url('../fonts/AvenirNext-Medium.ttf');
+  src: url('../fonts/AvenirNext-Medium.woff');
+  src: url('../fonts/AvenirNext-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'AvenirNext-DemiBold';
+  src: url('../fonts/AvenirNext-DemiBold.eot');
+  src: url('../fonts/AvenirNext-DemiBold.svg');
+  src: url('../fonts/AvenirNext-DemiBold.ttf');
+  src: url('../fonts/AvenirNext-DemiBold.woff');
+  src: url('../fonts/AvenirNext-DemiBold.woff2');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: url('../fonts/AvenirNext-Bold.eot');
+  src: url('../fonts/AvenirNext-Bold.svg');
+  src: url('../fonts/AvenirNext-Bold.ttf');
+  src: url('../fonts/AvenirNext-Bold.woff');
+  src: url('../fonts/AvenirNext-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Graphik-Regular';
+    src: url('../fonts/GraphikLCWeb-Regular.woff2') format('woff2'),
+        url('../fonts/GraphikLCWeb-Regular.woff') format('woff'),
+        url('../fonts/GraphikLCWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik-Medium';
+    src: url('../fonts/GraphikLCWeb-Medium.woff2') format('woff2'),
+        url('../fonts/GraphikLCWeb-Medium.woff') format('woff'),
+        url('../fonts/GraphikLCWeb-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik-Black';
+    src: url('../fonts/GraphikLCWeb-Black.woff2') format('woff2'),
+        url('../fonts/GraphikLCWeb-Black.woff') format('woff'),
+        url('../fonts/GraphikLCWeb-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik-RegularItalic';
+    src: url('../fonts/GraphikLCWeb-RegularItalic.woff2') format('woff2'),
+        url('../fonts/GraphikLCWeb-RegularItalic.woff') format('woff'),
+        url('../fonts/GraphikLCWeb-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik-Bold';
+    src: url('../fonts/GraphikLCWeb-Bold.woff2') format('woff2'),
+        url('../fonts/GraphikLCWeb-Bold.woff') format('woff'),
+        url('../fonts/GraphikLCWeb-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+	padding:0!important;
+	margin:0!important;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font-family: 'Graphik-Regular'!important;
+	font-weight:600;
+	color:#000000;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Graphik-Medium'!important;
+	color:#000000;
+    font-weight: 600;
+}
+img{
+	max-width:100%;
+}
+a:hover {
+    opacity: 0.8;
+    transition: .6s all;
+}
+a {
+	text-decoration: none;
+}
+.text-left{
+    text-align: left;
+}
+.w-100{
+    width: 100%;
+}
+.main-header {
+    float: left;
+    width: 100%;
+    padding: 16px 0 ;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    background: #fff;
+    top: 0;
+}
+.full-field small {
+    margin-top: 6px;
+    display: block;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo img {
+    max-width: 250px;
+}
+.header-logo {
+    width: 100%;
+    float: left;
+}
+.txt-left {
+    text-align: left;
+}
+.txt-right {
+    text-align: right;
+}
+.header-logo a {
+    display: inline-flex;
+    max-width: 250px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+/*.header-logo a:last-child::before {
+    content: "";
+    height: 41px;
+    width: 1px;
+    background-color: #ddd;
+    position: absolute;
+    left: -27px;
+}*/
+/*.header-logo a:last-child {
+    margin-left: 29px;
+}*/
+.header-menu {
+    margin-top: 18px;
+}
+.header-menu a {
+    color: #3578E5;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer-logo a:last-child img {
+    max-width: 106px;
+}
+.hero-sec {
+    background:url(../images/the-dentist-banner.jpg);
+    background-size: cover !important;
+    background-position: top right !important;
+    float: left;
+    width: 100%;
+	margin-top: 44px;
+}
+.d-block{
+    display: block;
+}
+.hero-txt {
+    max-width: 510px;
+    padding: 16% 0 16%;
+    margin-left: 8%;
+}
+.button {
+    background: #3578E5;
+    border: none;
+    color: #fff;
+    padding: 15px 75px 13px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif !important;
+    outline: none;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 130, 202, 0.46);
+    margin: 25px 0;
+    display: inline-block;
+    transition: .6s all;
+    min-height: 51px;
+}
+.button span {
+    position: absolute;
+    background: #2858A7;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    padding: 16px 0;
+    right: 0;
+	text-align: center;
+}
+.dental-care-inner .button {
+    margin: 10px 0 25px;
+}
+.hero-txt h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.hero-txt h1 {
+    font-size: 45px;
+    color: #3578E5;
+    font-family: 'Graphik-Black', cursive !important;
+    font-weight: 300;
+    line-height: 52px;
+}
+.hero-txt h6 {
+	font-size: 16px;
+    font-weight: 300;
+    max-width: 420px;
+    margin-top: 15px;
+    line-height: 24px;
+    font-family: 'Graphik-Regular'!important;
+}
+.hero-txt h1 span {
+    display: block;
+    color: #03679d;
+	font-size: 45px;
+    font-family: 'Abril Fatface', cursive !important;
+    font-weight: 300;
+    line-height: 52px;
+}
+.alert-txt {
+    color: #646464;
+    font-weight: 300;
+}
+.alert-txt span {
+    color: #3578E5;
+}
+.half-sec {
+    width: 50%;
+    float: left;
+}
+.dental-care-sec {
+    padding: 100px 0;
+    float: left;
+    width: 100%;
+}
+.cleaning-banner {
+    float: left;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.35);
+    padding: 18px 0;
+}
+.free-cleaning img {
+    vertical-align: bottom;
+    margin-right: 15px;
+}
+.free-cleaning {
+    color: #3578E5;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.dental-care-group {
+    padding-left: 8%;
+}
+.dental-care-inner {
+    max-width: 315px;
+	margin-top: -15px;
+}
+.dental-care-group h3 {
+    font-size: 32px;
+    font-family: 'Graphik-Regular'!important;
+    line-height: 38px;
+}
+.dental-care-group h3 span {
+    color: #3578E5;
+}
+.dental-care-group h4 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 22px 0;
+    font-family: 'Graphik-Regular'!important;
+}
+.dental-care-group ul li:before {
+    content: '';
+    background: url('../images/tik.svg');
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.dental-care-group ul li {
+	list-style: none;
+    margin: 7px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.dental-care-group h5.blue-color {
+    color: #3578E5;
+    line-height: 22px;
+}
+.dental-care-group h5 {
+    line-height: 22px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: 'Graphik-Regular'!important;
+	max-width: 235px;
+}
+
+.services-sec {
+    background: #3578E5;
+    float: left;
+    width: 100%;
+    padding: 75px 0 85px;
+}
+.how-works-sec {
+    float: left;
+    width: 100%;
+    padding: 90px 0 90px;
+	background: #F2F2F2;
+}
+.text-center{
+    text-align: center;
+}
+.our-services .service-view {
+    width: 33.3333%;
+    float: left;
+    padding: 20px 20px 30px;
+    background: #fff;
+}
+.our-services {
+    float: left;
+    overflow: hidden;
+}
+.custom-container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.service_info h4 {
+    font-size: 29px;
+    float: left;
+    font-family: 'Graphik-Regular'!important;
+    line-height: 35px;
+    transition: .6s all;
+}
+.service_info .icon-view {
+    float: right;
+	width: 55px;
+	height: 55px;
+	background: url('../images/round-add-button.svg');
+    background-size: 55px 55px;
+}
+.service_info {
+    float: left;
+    width: 100%;
+    padding-top: 25px;
+}
+.service-view {
+	cursor:pointer;
+    transition: .6s all;
+}
+.service-view:hover {
+    background: #2858A7;
+    transition: .6s all;
+}
+.service-view:hover .service_info .icon-view {
+	background: url('../images/white-add-button.svg');
+}
+.service-view img {
+    border-radius: 10px;
+}
+.service-view:hover h4 {
+    color: #fff;
+    transition: .6s all;
+}
+.heading {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Graphik-Medium'!important;
+    font-weight: 500;
+}
+.services-sec .heading {
+    color: #fff;
+    margin-bottom: 75px;
+}
+.how-works-row {
+	
+}
+.footer-logo {
+    width: 150px;
+    display: inline-block;
+}
+.footer-menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+.footer-menu li a {
+    color: #000;
+    font-size: 14px;
+}
+.footer-menu {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.social-icons li {
+    width: 30px;
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+}
+.footer-logo a{
+    min-width: 160px;
+}
+/*.footer-logo a:first-child{
+    margin-right: 15px;
+}
+.footer-logo a:last-child{
+    padding-left: 15px;
+    position: relative;
+}
+.footer-logo a:last-child::before{
+    content: " ";
+    height: 21px;
+    width: 1px;
+    background-color: #E5E5E5;
+    position: absolute;
+    left: 0;
+}*/
+.social-icons li a {
+    float: left;
+    width: 30px;
+}
+.social-icons {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.footer-sec {
+    float: left;
+    width: 100%;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.35);
+    padding: 15px 0 10px;
+}
+.right-footer {
+    width: 180px;
+    padding: 4px 0 3px;
+	float: left;
+}
+.left-footer{
+    width: calc(100% - 180px);
+    float: left;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.dental-care-img p {
+    font-size: 15px;
+    color: #3578E5;
+    margin-top: 25px;
+}
+.visit-row ul li:before {
+    content: '';
+    background: url('../images/white-list-check.svg');
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+.visit-row ul li {
+    list-style: none;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 30px;
+    line-height: 35px;
+}
+.visit-col {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -3px;
+}
+.visit-sec {
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+}
+.visit-row {
+    float: left;
+    width: 100%;
+}
+.visit-col-left {
+    background: #3578E5;
+    color: #fff;
+    padding: 65px 40px;
+    border-radius: 6px;
+	position: relative;
+	width: 52%;
+}
+.visit-col.visit-col-right {
+    margin-left: -10px;
+    z-index: -1;
+}
+.visit-col-right img {
+    float: left;
+    border-radius: 6px;
+}
+.visit-row .heading {
+    color: #fff;
+    font-family: 'Graphik-Medium'!important;
+    max-width: 399px;
+    text-align: left;
+    margin-bottom: 25px;
+    line-height: 50px;
+}
+.how-works-info h4 {
+    color: #0c6699;
+}
+.how-works-right {
+    width: 40%;
+    display: inline-block;
+    margin-left: -3px;
+    vertical-align: middle;
+}
+.how-works-left {
+    width: 60%;
+    display: inline-block;
+    margin-left: -3px;
+    vertical-align: middle;
+	margin-top: -35px;
+}
+.how-works-info span {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+	vertical-align: middle;
+	margin-right: 20px;
+	background-size: 52px !important;
+}
+.how-works-info1 span {
+    background: url('../images/gry-hygienist-icon.svg');
+}
+.how-works-info1:hover span {
+    background: url('../images/blue-hygienist-icon.svg');
+}
+.how-works-info2 span {
+    background: url('../images/gry-timetable-icon.svg');
+}
+.how-works-info2:hover span {
+    background: url('../images/blue-timetable-icon.svg');
+}
+.how-works-info3 span {
+    background: url('../images/gry-next-icon.svg');
+}
+.how-works-info3:hover span {
+    background: url('../images/blue-next-icon.svg');
+}
+.how-works-info:hover h4 {
+    color: #3578E5;
+}
+.how-works-info h4 {
+    color: #5e6170;
+    width: calc(100% - 80px);
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+    font-family: 'Graphik-Regular'!important;
+    max-width: 304px;
+    line-height: 26px;
+    transition: .6s all;
+}
+.how-works-info {
+    padding: 40px;
+	cursor: pointer;
+	max-width: 550px;
+    transition: .6s all;
+	position: relative;
+}
+.how-works-info:after {
+    content: '';
+    background: url('../images/gry-right-arrow.svg');
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    transition: .6s all;
+}
+.how-works-info:hover:after {
+    display:none;
+    transition: .6s all;
+}
+.how-works-info:hover {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(121, 120, 120, 0.5294117647058824);
+    transition: .6s all;
+}
+.how-works-info:hover :after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    bottom: 50%;
+    right: -11px;
+    box-sizing: border-box;
+    border: 12px solid rgba(0, 0, 0, 0.09019607843137255);
+    border-color: transparent transparent #ffffff #ffffff;
+    transform: rotate(-135deg);
+    box-shadow: -4px 3px 3px 0 rgba(0, 0, 0, 0.04);
+    transition: .6s all;
+}
+/* New style */
+.note-sec h5 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #2858A7;
+    margin-bottom: 8px;
+}
+.note-sec h5 i {
+    background: #2858A7;
+    width: 17px;
+    display: inline-flex;
+    color: #fff;
+    height: 17px;
+    font-size: 15px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+    margin-right: 5px;
+	margin-top: -1px;
+}
+.note-sec p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.hero-txt .note-sec {
+    margin-top: 50px;
+}
+.offcanvas-packages-list .note-sec {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+.offcanvas-packages-list .note-sec h5 {
+    color: #ffffff;
+}
+.offcanvas-packages-list .note-sec h5 i {
+    background: #fff;
+    color: #3578e5;
+}
+.offcanvas-packages-list .note-sec p {
+    color: #fff;
+}
+.side_confirmed .note-sec {
+    max-width: 530px;
+    margin: 30px auto 0;
+}
+/* //New style */
+@media (min-width: 887px){
+    .footer-menu {
+        min-width: 68%;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .footer-logo a {
+        min-width: 122px;
+    }
+    .footer-logo {
+        width: 264px;
+    }
+}
+@media (max-width: 991px){
+    .visit-row ul li{
+        line-height: 27px;
+    }
+    .social-icons li{
+        margin-left: 10px;
+    }
+    .footer-logo a:last-child::before{
+        left: 0;
+    }
+}
+@media (max-width: 767px){
+    .hero-sec {
+        background:none);
+    }
+    .how-works-img{
+        margin-top: 25px;
+    }
+    .footer-logo{
+        width: 230px;
+    }
+    .footer-logo a:last-child::before{
+        left: 9px;
+    }
+}
+@media (max-width: 575px){
+    .text-left.header-logo{
+        text-align: center;
+    }
+    .services-sec .heading {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 414px){
+    .header-logo img {
+        max-width: 160px;
+    }
+}
